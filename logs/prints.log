@@ -1,0 +1,9 @@
+16:39:33.119 [main] INFO  Resources.Base - navigate to home page
+16:39:37.369 [main] INFO  Resources.Base - maximixe window
+16:40:31.082 [main] INFO  Resources.Base - driver is initialized
+16:40:33.603 [main] INFO  Resources.Base - navigate to home page
+16:40:38.149 [main] INFO  Resources.Base - maximixe window
+16:40:46.299 [main] INFO  Resources.Base - onTestFailure(ITestResult result) homePageNavigation
+16:40:51.557 [main] INFO  Resources.Base - driver is initialized
+16:40:53.941 [main] INFO  Resources.Base - navigate to home page
+16:40:58.258 [main] INFO  Resources.Base - maximixe window

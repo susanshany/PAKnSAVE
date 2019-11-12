@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38962" started-at="2019-11-12T03:40:24Z" finished-at="2019-11-12T03:41:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38962" started-at="2019-11-12T03:40:24Z" finished-at="2019-11-12T03:41:03Z">
+      <class name="PAKnSAVE.HomePageTest">
+        <test-method status="FAIL" signature="homePageNavigation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PAKnSAVE.HomePageTest@394df057]" name="homePageNavigation" duration-ms="20853" started-at="2019-11-12T16:40:24Z" data-provider="getData" finished-at="2019-11-12T16:40:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gma.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[02096554376]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (936542f584ac227cc34fa89d524fd84e)] -> xpath: //div[@class='m-form__group']//button[text()='Continue']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'JAISE', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}), userDataDir=C:\Users\JAISE\AppData\Local\Temp\scoped_dir16140_1112488775}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50185}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 936542f584ac227cc34fa89d524fd84e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (936542f584ac227cc34fa89d524fd84e)] -> xpath: //div[@class='m-form__group']//button[text()='Continue']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'JAISE', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}), userDataDir=C:\Users\JAISE\AppData\Local\Temp\scoped_dir16140_1112488775}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50185}, acceptInsecureCerts=false, browserVersion=78.0.3904.97, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true}]
+Session ID: 936542f584ac227cc34fa89d524fd84e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at PAKnSAVE.HomePageTest.homePageNavigation(HomePageTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+      </class> <!-- PAKnSAVE.HomePageTest -->
+      <class name="PAKnSAVE.LogInPageTest">
+        <test-method status="PASS" signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:PAKnSAVE.LogInPageTest@65d09a04]" name="loginPageNavigation" duration-ms="17646" started-at="2019-11-12T16:40:46Z" data-provider="getData" finished-at="2019-11-12T16:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gma.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+      </class> <!-- PAKnSAVE.LogInPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
